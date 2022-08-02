@@ -17,6 +17,9 @@
       "@models/*": [
         "src/models/*"
       ],
+      "@navigation/*": [
+        "src/navigation/*"
+      ],
     },
     "forceConsistentCasingInFileNames": false,
   }
