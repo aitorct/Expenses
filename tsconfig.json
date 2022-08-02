@@ -26,6 +26,9 @@
       "@theme/*": [
         "src/theme/*"
       ],
+      "@locales/*": [
+        "src/locales/*"
+      ],
     },
     "forceConsistentCasingInFileNames": false,
   }
