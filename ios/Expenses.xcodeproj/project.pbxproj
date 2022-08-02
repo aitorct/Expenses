@@ -14,6 +14,16 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-Expenses-ExpensesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Expenses-ExpensesTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9B8C17E72899D334009CEB71 /* Color+ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C17E62899D334009CEB71 /* Color+ThemeColors.swift */; };
+		9B8C17E92899D364009CEB71 /* CGFloat+ThemeSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C17E82899D364009CEB71 /* CGFloat+ThemeSizes.swift */; };
+		9B8C17EE2899D3B8009CEB71 /* BoxRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C17ED2899D3B8009CEB71 /* BoxRow.swift */; };
+		9B8C17F02899D3C7009CEB71 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C17EF2899D3C7009CEB71 /* CustomButton.swift */; };
+		9B8C17F22899D3D8009CEB71 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C17F12899D3D8009CEB71 /* Header.swift */; };
+		9B8C17F42899D3E3009CEB71 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C17F32899D3E3009CEB71 /* Box.swift */; };
+		9B8C17F62899D3ED009CEB71 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C17F52899D3ED009CEB71 /* BackgroundView.swift */; };
+		9B8C17F82899D3FD009CEB71 /* ExpensesDetailViewProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C17F72899D3FD009CEB71 /* ExpensesDetailViewProxy.swift */; };
+		9B8C17FA2899D40E009CEB71 /* ExpensesDetailViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C17F92899D40E009CEB71 /* ExpensesDetailViewManager.m */; };
+		9B8C17FC2899D431009CEB71 /* ExpensesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C17FB2899D431009CEB71 /* ExpensesDetailView.swift */; };
 		9BDA693E2899CF6200BCADDA /* NativeCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDA693D2899CF6200BCADDA /* NativeCamera.swift */; };
 		9BDA69402899CF9E00BCADDA /* NativeCameraBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDA693F2899CF9E00BCADDA /* NativeCameraBridge.m */; };
 		9BDA69422899CFB900BCADDA /* NativeCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDA69412899CFB900BCADDA /* NativeCameraViewController.swift */; };
@@ -47,6 +57,16 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-Expenses.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Expenses.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Expenses/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Expenses-ExpensesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Expenses-ExpensesTests.release.xcconfig"; path = "Target Support Files/Pods-Expenses-ExpensesTests/Pods-Expenses-ExpensesTests.release.xcconfig"; sourceTree = "<group>"; };
+		9B8C17E62899D334009CEB71 /* Color+ThemeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+ThemeColors.swift"; sourceTree = "<group>"; };
+		9B8C17E82899D364009CEB71 /* CGFloat+ThemeSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+ThemeSizes.swift"; sourceTree = "<group>"; };
+		9B8C17ED2899D3B8009CEB71 /* BoxRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxRow.swift; sourceTree = "<group>"; };
+		9B8C17EF2899D3C7009CEB71 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		9B8C17F12899D3D8009CEB71 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		9B8C17F32899D3E3009CEB71 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		9B8C17F52899D3ED009CEB71 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		9B8C17F72899D3FD009CEB71 /* ExpensesDetailViewProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesDetailViewProxy.swift; sourceTree = "<group>"; };
+		9B8C17F92899D40E009CEB71 /* ExpensesDetailViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpensesDetailViewManager.m; sourceTree = "<group>"; };
+		9B8C17FB2899D431009CEB71 /* ExpensesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesDetailView.swift; sourceTree = "<group>"; };
 		9BDA693C2899CF6100BCADDA /* Expenses-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Expenses-Bridging-Header.h"; sourceTree = "<group>"; };
 		9BDA693D2899CF6200BCADDA /* NativeCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeCamera.swift; sourceTree = "<group>"; };
 		9BDA693F2899CF9E00BCADDA /* NativeCameraBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeCameraBridge.m; sourceTree = "<group>"; };
@@ -95,6 +115,8 @@
 		13B07FAE1A68108700A75B9A /* Expenses */ = {
 			isa = PBXGroup;
 			children = (
+				9B8C17EA2899D374009CEB71 /* Views */,
+				9B8C17E52899D325009CEB71 /* Extensions */,
 				9BDA693A2899CF3F00BCADDA /* Modules */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
@@ -146,6 +168,46 @@
 				00E356EE1AD99517003FC87E /* ExpensesTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9B8C17E52899D325009CEB71 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9B8C17E62899D334009CEB71 /* Color+ThemeColors.swift */,
+				9B8C17E82899D364009CEB71 /* CGFloat+ThemeSizes.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		9B8C17EA2899D374009CEB71 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9B8C17EB2899D379009CEB71 /* ExpensesDetail */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9B8C17EB2899D379009CEB71 /* ExpensesDetail */ = {
+			isa = PBXGroup;
+			children = (
+				9B8C17EC2899D398009CEB71 /* ViewBuilders */,
+				9B8C17F72899D3FD009CEB71 /* ExpensesDetailViewProxy.swift */,
+				9B8C17F92899D40E009CEB71 /* ExpensesDetailViewManager.m */,
+				9B8C17FB2899D431009CEB71 /* ExpensesDetailView.swift */,
+			);
+			name = ExpensesDetail;
+			sourceTree = "<group>";
+		};
+		9B8C17EC2899D398009CEB71 /* ViewBuilders */ = {
+			isa = PBXGroup;
+			children = (
+				9B8C17ED2899D3B8009CEB71 /* BoxRow.swift */,
+				9B8C17EF2899D3C7009CEB71 /* CustomButton.swift */,
+				9B8C17F12899D3D8009CEB71 /* Header.swift */,
+				9B8C17F32899D3E3009CEB71 /* Box.swift */,
+				9B8C17F52899D3ED009CEB71 /* BackgroundView.swift */,
+			);
+			name = ViewBuilders;
 			sourceTree = "<group>";
 		};
 		9BDA693A2899CF3F00BCADDA /* Modules */ = {
@@ -443,8 +505,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B8C17F82899D3FD009CEB71 /* ExpensesDetailViewProxy.swift in Sources */,
+				9B8C17F22899D3D8009CEB71 /* Header.swift in Sources */,
+				9B8C17EE2899D3B8009CEB71 /* BoxRow.swift in Sources */,
 				9BDA69402899CF9E00BCADDA /* NativeCameraBridge.m in Sources */,
+				9B8C17F02899D3C7009CEB71 /* CustomButton.swift in Sources */,
+				9B8C17E92899D364009CEB71 /* CGFloat+ThemeSizes.swift in Sources */,
+				9B8C17FC2899D431009CEB71 /* ExpensesDetailView.swift in Sources */,
+				9B8C17F42899D3E3009CEB71 /* Box.swift in Sources */,
+				9B8C17F62899D3ED009CEB71 /* BackgroundView.swift in Sources */,
+				9B8C17E72899D334009CEB71 /* Color+ThemeColors.swift in Sources */,
 				9BDA693E2899CF6200BCADDA /* NativeCamera.swift in Sources */,
+				9B8C17FA2899D40E009CEB71 /* ExpensesDetailViewManager.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				9BDA69422899CFB900BCADDA /* NativeCameraViewController.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
@@ -546,6 +618,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Expenses;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Expenses-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -572,6 +645,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Expenses;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Expenses-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -627,7 +701,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -692,7 +766,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",

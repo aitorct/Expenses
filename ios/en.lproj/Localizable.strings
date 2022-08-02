@@ -6,6 +6,11 @@
   
 */
 
+"spent_by" = "Spent by";
+"name" = "Name";
+"email" = "Email";
+"comment" = "Comment";
+"share_transaction" = "Share transaction";
 "camera_not_available_title" = "Camera not available";
 "camera_not_available_description" = "Sorry, we couldn't access the camera.";
 "camera_not_available_action" = "OK";
