@@ -1,0 +1,11 @@
+/*
+  Localizable.strings
+  Expenses
+
+  Created by Aitor Cubeles Torres on 2/8/22.
+  
+*/
+
+"camera_not_available_title" = "Camera not available";
+"camera_not_available_description" = "Sorry, we couldn't access the camera.";
+"camera_not_available_action" = "OK";
