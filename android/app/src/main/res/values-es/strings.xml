@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Expenses</string>
+    <string name="spent_by">Gastado por</string>
+    <string name="name">Nombre</string>
+    <string name="email">Email</string>
+    <string name="comment">Comentario</string>
+    <string name="share_transaction">Compartir transacción</string>
+</resources>

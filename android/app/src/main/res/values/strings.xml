@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Expenses</string>
+    <string name="spent_by">Spent by</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="comment">Comment</string>
+    <string name="share_transaction">Share transaction</string>
 </resources>
