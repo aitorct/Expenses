@@ -72,6 +72,7 @@
 		9BDA693F2899CF9E00BCADDA /* NativeCameraBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeCameraBridge.m; sourceTree = "<group>"; };
 		9BDA69412899CFB900BCADDA /* NativeCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeCameraViewController.swift; sourceTree = "<group>"; };
 		9BDA69462899D00300BCADDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9BDFA463289B27E300E39B14 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -310,6 +311,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 83CBB9F61A601CBA00E9B192;
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
@@ -538,6 +540,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				9BDA69462899D00300BCADDA /* en */,
+				9BDFA463289B27E300E39B14 /* es */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

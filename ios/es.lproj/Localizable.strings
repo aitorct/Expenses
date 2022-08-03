@@ -1,0 +1,16 @@
+/*
+  Localizable.strings
+  Expenses
+
+  Created by Aitor Cubeles Torres on 2/8/22.
+  
+*/
+
+"spent_by" = "Gastado por";
+"name" = "Nombre";
+"email" = "Email";
+"comment" = "Comentario";
+"share_transaction" = "Compartir transacción";
+"camera_not_available_title" = "La cámara no está disponible";
+"camera_not_available_description" = "Disculpa, no hemos podido acceder a la cámara.";
+"camera_not_available_action" = "De acuerdo";
