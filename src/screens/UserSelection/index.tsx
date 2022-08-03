@@ -12,20 +12,23 @@ import {
 import {FlashList} from '@shopify/flash-list';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
-import strings from '@locales/index';
+import useFilterData from '@hooks/useFilterData';
+import {useFilter} from '@hooks/useFilter';
+import {LIMIT} from '@hooks/useExpenses';
+import {FilterType} from '@contexts/FiltersContext/types';
 import colors from '@theme/colors';
 import fontSizes from '@theme/fontSizes';
 import sizes from '@theme/sizes';
-
-const filterData = ['Aitor Cubeles Torres'];
-const filterValue = filterData[0];
+import strings from '@locales/index';
 
 const UserSelection = () => {
+  const {filterData} = useFilterData(FilterType.USER);
+  const {filterValue, applyFilter} = useFilter(FilterType.USER);
   const [search, setSearch] = useState('');
   const insets = useSafeAreaInsets();
 
-  const onUserSelect = () => {
-    // Apply filter
+  const onUserSelect = (user: string) => {
+    user === filterValue ? applyFilter(null) : applyFilter(user);
   };
 
   const renderItem = ({item}: {item: string}) => {
@@ -35,14 +38,14 @@ const UserSelection = () => {
       ? styles.selectedItem
       : styles.unselectedItem;
 
-    const onPress = () => {
+    const onPress = (user: string) => {
       Keyboard.dismiss();
-      onUserSelect();
+      onUserSelect(user);
     };
 
     return (
       <TouchableOpacity
-        onPress={() => onPress()}
+        onPress={() => onPress(item)}
         style={[styles.item, customStyle]}>
         <Text style={styles.itemText}>{item}</Text>
         {item === filterValue && (

@@ -1,19 +1,21 @@
 import React from 'react';
 import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
-import FilterHeader from './FilterHeader';
+import {FilterType} from '@contexts/FiltersContext/types';
+import {useFilter} from '@hooks/useFilter';
 import strings from '@locales/index';
 import colors from '@theme/colors';
 import fontSizes from '@theme/fontSizes';
 import sizes from '@theme/sizes';
+import FilterHeader from './FilterHeader';
 
 interface Props {
   onPress: () => void;
 }
 
-const filterValue = ['Aitor Cubeles Torres'];
-
 const UserFilter = ({onPress}: Props) => {
+  const {filterValue} = useFilter(FilterType.USER);
+
   return (
     <View>
       <FilterHeader title={strings.filters.user.title} />

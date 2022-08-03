@@ -1,6 +1,7 @@
 import React from 'react';
 import {TouchableOpacity} from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import {useFilters} from '@hooks/useFilters';
 import colors from '@theme/colors';
 import sizes from '@theme/sizes';
 
@@ -9,9 +10,15 @@ interface Props {
 }
 
 const HeaderRight = ({onPress}: Props) => {
+  const {filtersActive} = useFilters();
+
   return (
     <TouchableOpacity onPress={onPress}>
-      <Icon name={'filter'} color={colors.icon} size={sizes.icon} />
+      <Icon
+        name={filtersActive ? 'filter' : 'filter-outline'}
+        color={colors.icon}
+        size={sizes.icon}
+      />
     </TouchableOpacity>
   );
 };

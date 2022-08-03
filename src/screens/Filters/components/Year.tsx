@@ -1,13 +1,16 @@
 import React from 'react';
 import strings from '@locales/index';
+import useFilterData from '@hooks/useFilterData';
 import OptionsFilter from './OptionsFilter';
-
-const filterData = ['2018', '2019'];
-const filterValue = filterData[0];
+import {useFilter} from '@hooks/useFilter';
+import {FilterType} from '@contexts/FiltersContext/types';
 
 const YearFilter = () => {
-  const onSelect = () => {
-    // Apply filter
+  const {filterValue, applyFilter} = useFilter(FilterType.YEAR);
+  const {filterData} = useFilterData(FilterType.YEAR);
+
+  const onSelect = (year: string) => {
+    year === filterValue ? applyFilter(null) : applyFilter(year);
   };
 
   return (

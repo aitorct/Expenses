@@ -1,6 +1,8 @@
 import React from 'react';
-import OptionsFilter from './OptionsFilter';
+import {FilterType} from '@contexts/FiltersContext/types';
+import {useFilter} from '@hooks/useFilter';
 import strings from '@locales/index';
+import OptionsFilter from './OptionsFilter';
 
 export enum ReceiptsFilterStatus {
   attached,
@@ -18,11 +20,10 @@ export const ReceiptsFilterOptions = [
   },
 ];
 
-const filterValue = ReceiptsFilterOptions[0].value;
-
 const ReceiptsFilter = () => {
-  const onSelect = () => {
-    // Apply filter
+  const {filterValue, applyFilter} = useFilter(FilterType.RECEIPTS);
+  const onSelect = (option: string) => {
+    option === filterValue ? applyFilter(null) : applyFilter(option);
   };
 
   const options = ReceiptsFilterOptions.map(option => option.value);
