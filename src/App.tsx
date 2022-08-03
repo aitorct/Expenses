@@ -19,6 +19,13 @@ const {RealmProvider} = ExpenseRealmContext;
 
 const Stack = createNativeStackNavigator<StackParamList>();
 
+const defaultConfig = {
+  headerTintColor: colors.text,
+  headerStyle: {
+    backgroundColor: colors.background,
+  },
+};
+
 const App = () => {
   return (
     <GestureHandlerRootView style={styles.container}>
@@ -31,9 +38,7 @@ const App = () => {
                   name={ROUTES.expenses}
                   component={ExpenseList}
                   options={{
-                    headerStyle: {
-                      backgroundColor: colors.background,
-                    },
+                    headerStyle: {...defaultConfig.headerStyle},
                     headerLargeTitle: true,
                     headerLargeStyle: {
                       backgroundColor: colors.background,
@@ -46,10 +51,7 @@ const App = () => {
                   component={ExpenseDetail}
                   options={{
                     title: '',
-                    headerTintColor: colors.text,
-                    headerStyle: {
-                      backgroundColor: colors.background,
-                    },
+                    ...defaultConfig,
                   }}
                 />
                 <Stack.Screen
@@ -57,31 +59,20 @@ const App = () => {
                   component={Receipts}
                   options={({route}) => ({
                     title: `${route.params.merchant} - ${route.params.amount}`,
-                    headerTintColor: colors.text,
-                    headerStyle: {
-                      backgroundColor: colors.background,
-                    },
+                    ...defaultConfig,
                   })}
                 />
                 <Stack.Screen
                   name={ROUTES.filters}
                   component={Filters}
-                  options={{
-                    headerTintColor: colors.text,
-                    headerStyle: {
-                      backgroundColor: colors.background,
-                    },
-                  }}
+                  options={defaultConfig}
                 />
                 <Stack.Screen
                   name={ROUTES.userSelection}
                   component={UserSelection}
                   options={{
                     title: strings.user_selection.title,
-                    headerTintColor: colors.text,
-                    headerStyle: {
-                      backgroundColor: colors.background,
-                    },
+                    ...defaultConfig,
                   }}
                 />
               </Stack.Navigator>
