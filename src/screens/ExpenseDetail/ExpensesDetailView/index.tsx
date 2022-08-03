@@ -10,7 +10,6 @@ interface ExpensesDetailViewProps {
   userName: string;
   userEmail: string;
   comment: string;
-  hasAttachedReceipts: boolean;
   onReceiptsButtonPress: () => void;
 }
 

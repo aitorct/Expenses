@@ -9,11 +9,13 @@ import {FiltersProvider} from '@contexts/FiltersContext';
 import ExpenseList from './screens/Expenses';
 import {ROUTES} from './navigation/routes';
 import colors from '@theme/colors';
+import ExpenseDetail from '@screens/ExpenseDetail';
 
 const {RealmProvider} = ExpenseRealmContext;
 
 type StackParamList = {
   [ROUTES.expenses]: undefined;
+  [ROUTES.expenseDetail]: undefined;
 };
 
 const Stack = createNativeStackNavigator<StackParamList>();
@@ -38,6 +40,17 @@ const App = () => {
                       backgroundColor: colors.background,
                     },
                     headerLargeTitleShadowVisible: false,
+                  }}
+                />
+                <Stack.Screen
+                  name={ROUTES.expenseDetail}
+                  component={ExpenseDetail}
+                  options={{
+                    title: '',
+                    headerTintColor: colors.text,
+                    headerStyle: {
+                      backgroundColor: colors.background,
+                    },
                   }}
                 />
               </Stack.Navigator>

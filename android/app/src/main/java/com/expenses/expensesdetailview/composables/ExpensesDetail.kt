@@ -22,8 +22,10 @@ fun ExpensesDetailComposable(merchant: String, amount: String, date: String, use
                 BoxRow(label = stringResource(R.string.email), value = userEmail, withDivider = false)
             }
 
-            CustomBox(title = stringResource(R.string.comment)) {
-                Text(text = comment, fontSize = FontSizes.largeText)
+            if(comment.isNotEmpty()) {
+                CustomBox(title = stringResource(R.string.comment)) {
+                    Text(text = comment, fontSize = FontSizes.largeText)
+                }
             }
 
         }
