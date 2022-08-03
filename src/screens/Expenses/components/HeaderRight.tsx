@@ -4,9 +4,13 @@ import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import colors from '@theme/colors';
 import sizes from '@theme/sizes';
 
-const HeaderRight = () => {
+interface Props {
+  onPress: () => void;
+}
+
+const HeaderRight = ({onPress}: Props) => {
   return (
-    <TouchableOpacity>
+    <TouchableOpacity onPress={onPress}>
       <Icon name={'filter'} color={colors.icon} size={sizes.icon} />
     </TouchableOpacity>
   );

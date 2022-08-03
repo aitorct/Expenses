@@ -1,17 +1,22 @@
 import React, {useLayoutEffect} from 'react';
 import {StyleSheet, View} from 'react-native';
-import {useNavigation} from '@react-navigation/native';
+import {NavigationProp, useNavigation} from '@react-navigation/native';
 import useExpenses from '@hooks/useExpenses';
 import HeaderRight from './components/HeaderRight';
 import ExpenseList from './components/ExpensesList';
+import {ROUTES, StackParamList} from '@navigation/routes';
 
 const Expenses = () => {
-  const navigation = useNavigation();
+  const navigation = useNavigation<NavigationProp<StackParamList>>();
   const {loadingFirstBatch, fetchMore} = useExpenses();
 
   useLayoutEffect(() => {
+    const onPress = () => {
+      navigation.navigate(ROUTES.filters);
+    };
+
     navigation.setOptions({
-      headerRight: () => <HeaderRight />,
+      headerRight: () => <HeaderRight onPress={onPress} />,
     });
   }, [navigation]);
 
