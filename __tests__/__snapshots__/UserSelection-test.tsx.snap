@@ -1,0 +1,381 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserSelection with data renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingHorizontal": 16,
+          "paddingTop": 16,
+        },
+        Object {
+          "flex": 1,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#7D828530",
+          "borderRadius": 12,
+          "flexDirection": "row",
+          "marginBottom": 12,
+          "marginTop": 8,
+          "paddingHorizontal": 8,
+          "paddingVertical": 8,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "paddingRight": 8,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontSize": 24,
+              },
+              undefined,
+              Object {
+                "fontFamily": "Material Design Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          󰍉
+        </Text>
+      </View>
+      <TextInput
+        onChangeText={[Function]}
+        placeholder="Type a user name..."
+        placeholderTextColor="#7D8285"
+        selectionColor="#000000"
+        style={
+          Object {
+            "fontSize": 16,
+          }
+        }
+        value=""
+      />
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "flex": 1,
+          },
+          Object {
+            "paddingBottom": 0,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <RCTScrollView
+          applyWindowCorrection={[Function]}
+          canChangeSize={true}
+          contentContainerStyle={
+            Object {
+              "backgroundColor": undefined,
+              "minHeight": 1,
+              "minWidth": 1,
+            }
+          }
+          contentHeight={0}
+          contentWidth={0}
+          data={
+            Array [
+              "Aitor Cubeles Torres",
+            ]
+          }
+          dataProvider={
+            DataProvider {
+              "_data": Array [
+                "Aitor Cubeles Torres",
+              ],
+              "_firstIndexToProcess": 0,
+              "_hasStableIds": true,
+              "_requiresDataChangeHandling": false,
+              "_size": 1,
+              "getStableId": [Function],
+              "rowHasChanged": [Function],
+            }
+          }
+          disableRecycling={false}
+          estimatedItemSize={25}
+          extendedState={Object {}}
+          externalScrollView={[Function]}
+          finalRenderAheadOffset={250}
+          forceNonDeterministicRendering={true}
+          horizontal={false}
+          initialOffset={0}
+          initialRenderIndex={0}
+          isHorizontal={false}
+          keyboardShouldPersistTaps="handled"
+          layoutProvider={
+            GridLayoutProviderWithProps {
+              "_acceptableRelayoutDelta": 1,
+              "_getHeightOrWidth": [Function],
+              "_getLayoutTypeForIndex": [Function],
+              "_getSpan": [Function],
+              "_maxSpan": 1,
+              "_setLayoutForType": [Function],
+              "_tempDim": Object {
+                "height": 0,
+                "width": 0,
+              },
+              "averageWindow": AverageWindow {
+                "currentAverage": 25,
+                "currentCount": 1,
+                "inputValues": Array [
+                  25,
+                ],
+                "nextIndex": 1,
+              },
+              "defaultEstimatedItemSize": 100,
+              "layoutObject": Object {
+                "size": undefined,
+                "span": undefined,
+              },
+              "props": Object {
+                "contentContainerStyle": Object {
+                  "paddingBottom": 0,
+                },
+                "data": Array [
+                  "Aitor Cubeles Torres",
+                ],
+                "estimatedItemSize": 25,
+                "keyboardShouldPersistTaps": "handled",
+                "numColumns": 1,
+                "renderItem": [Function],
+                "showsVerticalScrollIndicator": false,
+              },
+              "shouldRefreshWithAnchoring": true,
+            }
+          }
+          maxRenderAhead={750}
+          numColumns={1}
+          onEndReached={[Function]}
+          onEndReachedThreshold={0}
+          onEndReachedThresholdRelative={0}
+          onItemLayout={[Function]}
+          onLayout={[Function]}
+          onScroll={[Function]}
+          onScrollBeginDrag={[Function]}
+          onSizeChanged={[Function]}
+          onVisibleIndicesChanged={[Function]}
+          removeClippedSubviews={false}
+          renderAheadOffset={0}
+          renderAheadStep={250}
+          renderContentContainer={[Function]}
+          renderItem={[Function]}
+          renderItemContainer={[Function]}
+          rowRenderer={[Function]}
+          scrollEventThrottle={16}
+          scrollThrottle={16}
+          scrollViewProps={
+            Object {
+              "contentContainerStyle": Object {
+                "backgroundColor": undefined,
+                "minHeight": 1,
+                "minWidth": 1,
+              },
+              "onLayout": [Function],
+              "onScrollBeginDrag": [Function],
+              "refreshControl": undefined,
+              "style": Object {
+                "minHeight": 1,
+                "minWidth": 1,
+              },
+            }
+          }
+          showsVerticalScrollIndicator={false}
+          style={
+            Object {
+              "minHeight": 1,
+              "minWidth": 1,
+            }
+          }
+          suppressBoundedSizeException={true}
+          windowCorrectionConfig={
+            Object {
+              "applyToInitialOffset": true,
+              "applyToItemScroll": true,
+              "value": Object {
+                "endCorrection": 0,
+                "startCorrection": 0,
+                "windowShift": -0,
+              },
+            }
+          }
+        >
+          <View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "column",
+                }
+              }
+            >
+              <AutoLayoutView
+                enableInstrumentation={false}
+                horizontal={false}
+                onBlankAreaEvent={[Function]}
+                onLayout={[Function]}
+                renderAheadOffset={0}
+                scrollOffset={0}
+                style={
+                  Object {
+                    "height": 0,
+                    "width": 0,
+                  }
+                }
+                windowSize={0}
+              />
+            </View>
+          </View>
+        </RCTScrollView>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
+
+exports[`UserSelection with no data renders empty state correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingHorizontal": 16,
+          "paddingTop": 16,
+        },
+        Object {
+          "flex": 1,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#7D828530",
+          "borderRadius": 12,
+          "flexDirection": "row",
+          "marginBottom": 12,
+          "marginTop": 8,
+          "paddingHorizontal": 8,
+          "paddingVertical": 8,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "paddingRight": 8,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontSize": 24,
+              },
+              undefined,
+              Object {
+                "fontFamily": "Material Design Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          󰍉
+        </Text>
+      </View>
+      <TextInput
+        onChangeText={[Function]}
+        placeholder="Type a user name..."
+        placeholderTextColor="#7D8285"
+        selectionColor="#000000"
+        style={
+          Object {
+            "fontSize": 16,
+          }
+        }
+        value=""
+      />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "paddingTop": 24,
+          },
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 18,
+            "textAlign": "center",
+          }
+        }
+      >
+        No matching users found
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterHeader renders correctly 1`] = `
+<Text
+  style={
+    Object {
+      "color": "#000000",
+      "fontSize": 20,
+      "fontWeight": "500",
+      "paddingBottom": 12,
+    }
+  }
+>
+  Title
+</Text>
+`;

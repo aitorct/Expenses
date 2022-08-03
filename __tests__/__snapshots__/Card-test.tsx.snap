@@ -1,0 +1,696 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card with comments renders correctly 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Amazon
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontSize": 14,
+          }
+        }
+      >
+        17:48
+      </Text>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 16,
+          "fontWeight": "500",
+        }
+      }
+    >
+      18€
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        },
+        Object {
+          "marginTop": 16,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#E7EFFA",
+            "borderRadius": 36,
+            "flexDirection": "row",
+            "padding": 4,
+            "paddingHorizontal": 8,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontSize": 16,
+            },
+            undefined,
+            Object {
+              "fontFamily": "Material Design Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        󰀉
+      </Text>
+      <View
+        style={
+          Object {
+            "paddingLeft": 4,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+              },
+              undefined,
+            ]
+          }
+        >
+          Aitor Cubeles Torres
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E7EFFA",
+              "borderRadius": 36,
+              "flexDirection": "row",
+              "padding": 4,
+              "paddingHorizontal": 8,
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontSize": 16,
+              },
+              undefined,
+              Object {
+                "fontFamily": "Material Design Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          󰅺
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Card with no receipts and no comments renders correctly 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Amazon
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontSize": 14,
+          }
+        }
+      >
+        17:48
+      </Text>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 16,
+          "fontWeight": "500",
+        }
+      }
+    >
+      18€
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        },
+        Object {
+          "marginTop": 16,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#E7EFFA",
+            "borderRadius": 36,
+            "flexDirection": "row",
+            "padding": 4,
+            "paddingHorizontal": 8,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontSize": 16,
+            },
+            undefined,
+            Object {
+              "fontFamily": "Material Design Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        󰀉
+      </Text>
+      <View
+        style={
+          Object {
+            "paddingLeft": 4,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+              },
+              undefined,
+            ]
+          }
+        >
+          Aitor Cubeles Torres
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`Card with receipts and comments attached renders correctly 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Amazon
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontSize": 14,
+          }
+        }
+      >
+        17:48
+      </Text>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 16,
+          "fontWeight": "500",
+        }
+      }
+    >
+      18€
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        },
+        Object {
+          "marginTop": 16,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#E7EFFA",
+            "borderRadius": 36,
+            "flexDirection": "row",
+            "padding": 4,
+            "paddingHorizontal": 8,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontSize": 16,
+            },
+            undefined,
+            Object {
+              "fontFamily": "Material Design Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        󰀉
+      </Text>
+      <View
+        style={
+          Object {
+            "paddingLeft": 4,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+              },
+              undefined,
+            ]
+          }
+        >
+          Aitor Cubeles Torres
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E7EFFA",
+              "borderRadius": 36,
+              "flexDirection": "row",
+              "padding": 4,
+              "paddingHorizontal": 8,
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontSize": 16,
+              },
+              undefined,
+              Object {
+                "fontFamily": "Material Design Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          󰅺
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E7EFFA",
+              "borderRadius": 36,
+              "flexDirection": "row",
+              "padding": 4,
+              "paddingHorizontal": 8,
+            },
+            Object {
+              "marginLeft": 8,
+            },
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontSize": 16,
+              },
+              undefined,
+              Object {
+                "fontFamily": "Material Design Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          󰑉
+        </Text>
+        0
+        0
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Card with receipts attached renders correctly 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Amazon
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontSize": 14,
+          }
+        }
+      >
+        17:48
+      </Text>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 16,
+          "fontWeight": "500",
+        }
+      }
+    >
+      18€
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        },
+        Object {
+          "marginTop": 16,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#E7EFFA",
+            "borderRadius": 36,
+            "flexDirection": "row",
+            "padding": 4,
+            "paddingHorizontal": 8,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontSize": 16,
+            },
+            undefined,
+            Object {
+              "fontFamily": "Material Design Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        󰀉
+      </Text>
+      <View
+        style={
+          Object {
+            "paddingLeft": 4,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+              },
+              undefined,
+            ]
+          }
+        >
+          Aitor Cubeles Torres
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E7EFFA",
+              "borderRadius": 36,
+              "flexDirection": "row",
+              "padding": 4,
+              "paddingHorizontal": 8,
+            },
+            Object {
+              "marginLeft": 8,
+            },
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontSize": 16,
+              },
+              undefined,
+              Object {
+                "fontFamily": "Material Design Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          󰑉
+        </Text>
+        0
+        0
+      </View>
+    </View>
+  </View>
+</View>
+`;

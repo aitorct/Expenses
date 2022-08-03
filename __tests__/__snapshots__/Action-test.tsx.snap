@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Action with animation finished renders correctly 1`] = `
+<View
+  collapsable={false}
+  style={
+    Object {
+      "alignItems": "center",
+      "justifyContent": "center",
+      "transform": Array [
+        Object {
+          "scale": 1,
+        },
+      ],
+      "width": 100,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontSize": 48,
+        },
+        undefined,
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰈈
+  </Text>
+  <View
+    collapsable={false}
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "opacity": 1,
+        "transform": Array [
+          Object {
+            "scale": 1,
+          },
+        ],
+        "width": 100,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 12,
+          "paddingTop": 4,
+        }
+      }
+    >
+      Title
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Action with no animation started renders correctly 1`] = `
+<View
+  collapsable={false}
+  style={
+    Object {
+      "alignItems": "center",
+      "justifyContent": "center",
+      "transform": Array [
+        Object {
+          "scale": 0,
+        },
+      ],
+      "width": 100,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontSize": 48,
+        },
+        undefined,
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰈈
+  </Text>
+  <View
+    collapsable={false}
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "opacity": 0,
+        "transform": Array [
+          Object {
+            "scale": 0,
+          },
+        ],
+        "width": 100,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 12,
+          "paddingTop": 4,
+        }
+      }
+    >
+      Title
+    </Text>
+  </View>
+</View>
+`;
