@@ -16,5 +16,9 @@ export default {
   ...sizes,
   smallIcon: sizes.s16,
   icon: sizes.s24,
+  headerIcon: sizes.s32,
+  largeIcon: sizes.s48,
   border: sizes.s1,
+  square: sizes.s100,
+  dotIndicator: sizes.s10,
 };
