@@ -7,15 +7,17 @@ import {GestureHandlerRootView} from 'react-native-gesture-handler';
 import {ExpenseRealmContext} from './contexts/ExpenseRealmContext';
 import {FiltersProvider} from '@contexts/FiltersContext';
 import ExpenseList from './screens/Expenses';
+import ExpenseDetail from '@screens/ExpenseDetail';
+import Receipts from '@screens/Receipts';
 import {ROUTES} from './navigation/routes';
 import colors from '@theme/colors';
-import ExpenseDetail from '@screens/ExpenseDetail';
 
 const {RealmProvider} = ExpenseRealmContext;
 
 type StackParamList = {
   [ROUTES.expenses]: undefined;
   [ROUTES.expenseDetail]: undefined;
+  [ROUTES.receipts]: {imageUris: string[]; merchant: string; amount: string};
 };
 
 const Stack = createNativeStackNavigator<StackParamList>();
@@ -52,6 +54,17 @@ const App = () => {
                       backgroundColor: colors.background,
                     },
                   }}
+                />
+                <Stack.Screen
+                  name={ROUTES.receipts}
+                  component={Receipts}
+                  options={({route}) => ({
+                    title: `${route.params.merchant} - ${route.params.amount}`,
+                    headerTintColor: colors.text,
+                    headerStyle: {
+                      backgroundColor: colors.background,
+                    },
+                  })}
                 />
               </Stack.Navigator>
             </FiltersProvider>
